@@ -1,0 +1,19 @@
+{
+
+  "description": "Recognized semantic chemistry content",
+  "manifest_version": 2,
+  "name": "Sechemtic",
+  "version": "1.0",
+  "homepage_url": "https://github.com/egonw/sechemtic",
+  "icons": {
+    "48": "icons/sechemtic-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["sechemtic.js"]
+    }
+  ]
+
+}
